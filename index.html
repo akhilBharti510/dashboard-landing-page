@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Special+Gothic+Expanded+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e95ddf469.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <div class="profile">
+                <img src="./img/man.jpg" alt="">
+                <p>John Doe</p>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-list-ul"></i>
+                <a href="#board">Dashboard</a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-chart-simple"></i>
+                <a href="#data">DATA</a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-user"></i>
+                <a href="#users">USERS</a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-calendar-days"></i>
+                <a href="#schedule">SCHEDULE</a>
+            </div>
+            <div class="nav">
+                <i class="fa-solid fa-phone"></i>
+                <a href="#contact">CONTACT</a>
+            </div>
+            
+
+        </section>
+
+        <section class="right">
+            <header>
+                <h1>DashBoard</h1>
+                <input type="text" placeholder="Search...">
+            </header>
+            <article id="board">
+                <div>
+                    <h3>Activities</h3>
+                    <p>May-June 2024</p>
+                </div>
+                <div>
+                    <img src="./img/BarGraph.png" alt="BarGraph">
+                </div>
+            </article>
+
+            <article id="data">
+                <h2>Dashboard Data</h2>
+                <div class="card-container">
+                    <div class="card1 card">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="cardHead">Total Revenue</p>
+                        <p class="cardData">$456,43,22</p>
+                    </div>
+                    <div class="card2 card">
+                        <i class="fa-solid fa-tag"></i>
+                        <p class="cardHead">Total Transaction</p>
+                        <p class="cardData">1,450</p>
+                    </div>
+                    <div class="card3 card">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p class="cardHead">Total Likes</p>
+                        <p class="cardData">1,234</p>
+                    </div>
+                    <div class="card4 card">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="cardHead">Total Users</p>
+                        <p class="cardData">856</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="users">
+                <h2>User Interactions</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Number of Users</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>Febuary</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>March</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>1250</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>1600</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </article>
+
+            <article id="schedule">
+                <div class="schedule-head">
+                    <h3>Today's Schedule</h3>
+                    <p>See all</p>
+                </div>
+                <div class="schedule-details">
+                    <div>
+                        <p class="meets head">Meetings from suppliers from Kutta bali</p>
+                        <p class="meets detail">14.00-15.00</p>
+                        <p class="meets detail">at sunset road kutta bali</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Team Standup Meeting</p>
+                        <p class="meets detail">09.00-09.30</p>
+                        <p class="meets detail">at Conference Room A</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Client Presentation</p>
+                        <p class="meets detail">10.00-11.00</p>
+                        <p class="meets detail">at Zoom</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Project Planning Session</p>
+                        <p class="meets detail">11.30-12.30</p>
+                        <p class="meets detail">at Office HQ</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Lunch with Stakeholders</p>
+                        <p class="meets detail">12.30-13.30</p>
+                        <p class="meets detail">at Downtown Cafe</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Marketing Strategy Discussion</p>
+                        <p class="meets detail">15.30-16.30</p>
+                        <p class="meets detail">at Marketing Office</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Weekly Review Meeting</p>
+                        <p class="meets detail">16.45-17.30</p>
+                        <p class="meets detail">at Boardroom</p>
+                    </div>
+                    <div>
+                        <p class="meets head">Product Launch Preparation</p>
+                        <p class="meets detail">18.00-19.00</p>
+                        <p class="meets detail">at Main Auditorium</p>
+                    </div>
+                    <div>
+                        <p class="meets head">HR Policy Update</p>
+                        <p class="meets detail">19.30-20.00</p>
+                        <p class="meets detail">at HR Office</p>
+                    </div>
+                    <div>
+                        <p class="meets head">End-of-Day Wrap-Up</p>
+                        <p class="meets detail">20.30-21.00</p>
+                        <p class="meets detail">at Virtual Meeting</p>
+                    </div>
+
+
+                </div>
+                
+            </article>
+
+            <article id="contact">
+                <h2>Contact Details</h2>
+                <div class="contact-inner">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55994.758896547064!2d77.06502195655027!3d28.699443860608614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01409aaaaaab%3A0x2a39f914e6691a10!2sAdventure%20Island!5e0!3m2!1sen!2sin!4v1745419122770!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="feedback-form">
+                        <h2>Feedback</h2>
+                        <form action="#" method="post">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required /> <br />
+                            <input type="email" name="email" id="email" placeholder="Your Email" required> <br />
+                            <textarea name="feedback" id="feedback" placeholder="Your Feedback" required></textarea><br />
+                            
+                            <input type="submit" value="Submit Feedback" />
+                        </form>
+                    </div>
+                </div>
+            </article>
+
+            <footer>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+                <div>&copy; 2024 Your Company Name. All Rights Reserved.</div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
