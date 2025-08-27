@@ -3,8 +3,7 @@
 A responsive and modern **Dashboard Landing Page** built using **HTML & CSS**.  
 It showcases dashboard features like charts, user data, schedule management, contact form, and more.  
 
-🌐 **Live Demo:** [Click Here](https://akhilbharti510.github.io/dashboard-landing-page/){:target="_blank"}
-🔗 <a href="https://akhilbharti510.github.io/dashboard-landing-page/" target="_blank">Live Demo</a>
+🌐 **Live Demo:** [Click Here](https://akhilbharti510.github.io/dashboard-landing-page/)
 
 
 ---
