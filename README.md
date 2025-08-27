@@ -11,7 +11,7 @@ This project demonstrates clean UI design, layout techniques, and responsive sty
 
 
 ## 🌐 Live Demo
-[Click here to view the project](https://<your-username>.github.io/dashboard-landing-page/)
+[Click here to view the project]([https://<your-username>.github.io/dashboard-landing-page/](https://akhilbharti510.github.io/dashboard-landing-page/))
 
 ## 📸 Screenshots
 (Add screenshots of your project here)
